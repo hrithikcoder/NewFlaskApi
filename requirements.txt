@@ -2,7 +2,6 @@
 click
 colorama
 Flask
-gunicorn
 itsdangerous
 Jinja2
 joblib
@@ -12,4 +11,5 @@ scikit-learn
 scipy
 threadpoolctl
 Werkzeug
+gunicorn
 
