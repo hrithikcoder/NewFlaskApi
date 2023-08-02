@@ -1,10 +1,9 @@
 from flask import Flask,request,jsonify
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
-#from scipy.sparse import csr_array
+
 
 model=pickle.load(open("fakenews_model.pkl",'rb'))
-#vector=pickle.load(open("vectorizer.pkl",'rb'))
+vector=pickle.load(open("vectorizer.pkl",'rb'))
 
 
 app = Flask(__name__)
