@@ -12,5 +12,6 @@ scikit-learn
 scipy
 threadpoolctl
 Werkzeug
+scipy.sparse_csr
 
 
